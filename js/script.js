@@ -34,11 +34,11 @@ function animate() {
         duration: 1000,
     })
     .velocity({
-        top: window.innerHeight + 200,
+        top: window.innerHeight + 100,
     },{
         queue: false,
         delay: 13000,
-        duration: 10000,
+        duration: 9000,
     })
  
     
