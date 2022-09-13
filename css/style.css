@@ -1,0 +1,19 @@
+#balloon{
+    background: url(../images/hotairballoon.png);
+    position:absolute;
+    bottom: 0;
+    right:0;
+    width: 200px ;
+    height: 271px;
+}
+
+#gift{
+    opacity: 0;
+    background: url(../images/orangeGiftRibbonRed.png) no-repeat;
+    position:absolute;
+    top:240px;
+    right: 72px;
+    width: 51px ;
+    height: 41px;
+}
+
