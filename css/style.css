@@ -18,6 +18,7 @@ body{
     right:0;
     width: 200px ;
     height: 271px;
+    z-index: 5;
 }
 
 #gift{
@@ -29,13 +30,14 @@ body{
     width: 51px ;
     height: 41px;
     transform: scale(0.6,0.6);
+    z-index: 5;
 }
 
 .cloud1{
     background: url(../images/cloud1.png);
     position:absolute;
     top:0;
-    right: 0;
+    left: 0;
     width: 100px ;
     height: 32px;
 }
@@ -44,43 +46,48 @@ body{
     background: url(../images/cloud2.png);
     position:absolute;
     top:0;
-    right: 0;
+    left: 0;
     width: 100px ;
     height: 35px;
+   
 }
 
 .cloud3{
-    background: url(../images/cloud3.png);
+    background: url(../images/cloud4.png);
     position:absolute;
     top:0;
-    right: 0;
+    left: 0;
     width: 50px ;
-    height: 29px;
+    height: 34px;
+   
 }
 
 .cloud4{
     background: url(../images/cloud4.png) ;
     position:absolute;
     top:0;
-    right: 0;
+    left: 0;
     width: 50px ;
     height: 34px;
+    
 }
 
 .cloud5{
     background: url(../images/cloud5.png);
     position:absolute;
     top:0;
-    right: 0;
+    left: 0;
     width: 250px ;
     height: 84px;
+    
 }
 
 .cloud6{
     background: url(../images/cloud6.png);
     position:absolute;
     top:0;
-    right: 0;
+    left: 0;
     width: 150px ;
     height: 66px;
+   
 }
