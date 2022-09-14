@@ -2,7 +2,7 @@ const balloon = document.getElementById('balloon');
 const gift = document.getElementById('gift');
 const canvas = document.getElementById('canvas');
 const clouds = document.getElementById('clouds');
-const totalClouds = 134;
+const totalClouds = 150;
 
 //random number between min and max
 function random (min, max) {
@@ -18,7 +18,7 @@ function setClouds(){
         clouds.appendChild(cloud);
 
         //clouds position
-        cloud.style.left = random(-50, -window.innerWidth*2) + 'px';
+        cloud.style.left = random(-50, -window.innerWidth*1.5) + 'px';
         cloud.style.top = random(0, window.innerHeight) + 'px';
         cloud.style.zIndex = random(1,10);
         
@@ -82,12 +82,12 @@ function animate() {
 
     for (let i = 1; i <= totalClouds; i++){
 
-        let duration = Math.abs(parseInt(document.getElementById('cloud'+i).style.left)/100)*2000;
+        let duration = Math.abs(parseInt(document.getElementById('cloud'+i).style.left)/100)*3000;
 
         console.log(duration)
 
         if (duration < 10000){
-            duration = random(10000, 15000)
+            duration = random(20000, 45000)
         }
 
         document.getElementById('cloud'+i)
@@ -97,14 +97,13 @@ function animate() {
             duration: duration,
         
         })
-        
+    
 
     }
- 
-
     
 }
 
+
 setClouds();
 setBackground();
-animate()
+animate();
