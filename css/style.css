@@ -16,7 +16,6 @@ body{
 #balloon{
     background: url(../images/hotairballoon.png);
     position:absolute;
-    bottom: 0;
     right:0;
     width: 200px ;
     height: 271px;
@@ -30,6 +29,59 @@ body{
     right: 72px;
     width: 51px ;
     height: 41px;
-    transform: scale(0.5,0.5);
+    transform: scale(0.6,0.6);
 }
 
+.cloud1{
+    background: url(../images/cloud1.png) no-repeat;
+    position:absolute;
+    top:0;
+    right: 0;
+    width: 51px ;
+    height: 41px;
+}
+
+.cloud2{
+    background: url(../images/cloud2.png) no-repeat;
+    position:absolute;
+    top:0;
+    right: 0;
+    width: 51px ;
+    height: 41px;
+}
+
+.cloud3{
+    background: url(../images/cloud3.png) no-repeat;
+    position:absolute;
+    top:0;
+    right: 0;
+    width: 51px ;
+    height: 41px;
+}
+
+.cloud4{
+    background: url(../images/cloud4.png) no-repeat;
+    position:absolute;
+    top:0;
+    right: 0;
+    width: 51px ;
+    height: 41px;
+}
+
+.cloud5{
+    background: url(../images/cloud5.png) no-repeat;
+    position:absolute;
+    top:0;
+    right: 0;
+    width: 51px ;
+    height: 41px;
+}
+
+.cloud6{
+    background: url(../images/cloud6.png) no-repeat;
+    position:absolute;
+    top:0;
+    right: 0;
+    width: 51px ;
+    height: 41px;
+}
